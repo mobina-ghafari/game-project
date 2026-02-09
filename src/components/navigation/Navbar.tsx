@@ -34,7 +34,7 @@ const Navbar = () => {
   ];
   return (
     <>
-      <nav className="w-full sticky z-50 top-0 flex items-center justify-around shadow overflow-hidden py-2">
+      <nav className="w-full sticky z-50 top-0 flex items-center justify-around shadow overflow-hidden py-2 bg-background">
         <div className="flex items-center justify-center w-30 h-10 mt-2">
           <Image className="object-cover w-full" src={logo} alt="logo" />
         </div>
