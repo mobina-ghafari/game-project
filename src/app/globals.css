@@ -6,7 +6,6 @@ html body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Outfit", IRANSansWebFaNum, sans-serif !important;
-  overflow: hidden;
 }
 
 * {
@@ -35,7 +34,6 @@ nextjs-portal {
 }
 
 .header-style::after {
-  
   content: "";
   position: absolute;
   inset: 0;
@@ -58,5 +56,6 @@ nextjs-portal {
   --color-text-bold: #fafafa;
   --color-text-muted: #9c9fa6;
   --color-text-white: #fafafa;
+  --color-card: #111111;
   --color-dark: #111;
 }

@@ -1,7 +1,9 @@
 export const dummyEndpoints = {
-    login:"/auth/login",
-    me: "/auth/me",
-    users: "/users",
+  login: "/auth/login",
+  me: "/auth/me",
+  users: "/users",
 };
 
-export const rawgEndpoints = {};
+export const rawgEndpoints = {
+  games: "/games",
+};

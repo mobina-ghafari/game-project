@@ -3,7 +3,7 @@ import Navbar from "../components/navigation/Navbar";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="overflow-hidden">
       <Navbar />
       <Header />
     </div>
