@@ -6,6 +6,7 @@ html body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Outfit", IRANSansWebFaNum, sans-serif !important;
+  overflow: hidden;
 }
 
 * {
@@ -20,10 +21,42 @@ nextjs-portal {
   display: none;
 }
 
+.header-style {
+  height: 90vh;
+  background: url("../images/header.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right 10rem center;
+  background-attachment: fixed;
+  transform: skewX(-4deg);
+  transform-origin: right center;
+  position: relative;
+  overflow: hidden;
+}
+
+.header-style::after {
+  
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at 70% 50%,
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0) 30%
+  );
+  pointer-events: none;
+}
+
+.header-content {
+  transform: skewX(4deg);
+  transform-origin: right center;
+}
+
 @theme {
   --color-background: #09090b;
   --color-primary: #0d9488;
   --color-text-bold: #fafafa;
   --color-text-muted: #9c9fa6;
+  --color-text-white: #fafafa;
   --color-dark: #111;
 }
