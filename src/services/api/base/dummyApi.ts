@@ -6,7 +6,7 @@ const dummyApi = axios.create({
   headers: {
     "Content-Type": "application/json",
   },
-  withCredentials: true,
+  withCredentials: false,
 });
 
 applyInterceptors(dummyApi);
