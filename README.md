@@ -34,7 +34,7 @@
 yarn install
 ```
 
-2. تنظیم متغیرهای محیطی در فایل `.env.local`:
+2. تنظیم متغیرهای محیطی در فایل `.env`:
 
 ```env
 NEXT_PUBLIC_DUMMY_BASE_URL=https://dummyjson.com
