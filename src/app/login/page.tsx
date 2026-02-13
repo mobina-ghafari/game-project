@@ -23,7 +23,7 @@ const LoginPage = () => {
         body: { ...values, expiresInMins: 30 },
         source: "dummy",
       });
-      localStorage.setItem("authToken", res.token);
+      localStorage.setItem("authToken", res.accessToken);
       localStorage.setItem("authUsername", res.username);
       toast.success("Login successful");
       router.push(routes.home);

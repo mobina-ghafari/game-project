@@ -7,7 +7,7 @@ interface LoginBody {
 interface LoginResponse {
   id: number;
   username: string;
-  token: string;
+  accessToken: string;
   refreshToken: string;
 }
 export type { LoginBody, LoginResponse };
